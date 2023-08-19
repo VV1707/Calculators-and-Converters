@@ -1,0 +1,30 @@
+.active{
+    background-color:#1976D2;
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f172a;
+    color: white;
+    position: sticky;
+    display:flex;
+    margin-left:0px;
+    padding-right: 5px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li {
+   list-style: none; 
+}
+nav ul li a {
+    display: block;
+    text-decoration:none;
+    color: white;
+    padding:15px;
+    border-radius: 0.5rem;
+    font-size: medium;
+}
+nav ul li a:not(.active):hover {
+    background-color:#1976D2 ;
+}
